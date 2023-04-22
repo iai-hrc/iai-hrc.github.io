@@ -1,0 +1,24 @@
+theme: jekyll-theme-clean-blog
+
+title:              IAI-HRC
+email:              iai.hrc@gmail.com
+description:        The HRC team in the IAI Research Group
+author:             IAI-HRC
+baseurl:            
+url:                "https://lee-regina.github.io"
+
+# Social Profiles
+github_username:    IAI-HRC-github
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+##  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+

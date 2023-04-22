@@ -1,0 +1,3220 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#MoveAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MoveAA"
+    },
+    "id" : "13",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#HoldAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HoldAA"
+    },
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Product",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#PrimitiveTask",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimitiveTask"
+    },
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#AssemblyObject",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AssemblyObject"
+    },
+    "subClasses" : [ "44", "9" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Joint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Joint"
+    },
+    "subClasses" : [ "50", "51" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Part",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Part"
+    },
+    "id" : "52",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ActionAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionAA"
+    },
+    "subClasses" : [ "70", "71", "72", "13", "73", "66", "19", "74", "75" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ActionPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionPT"
+    },
+    "subClasses" : [ "78", "79", "80", "81", "82" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ShaftAndHoleJoint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShaftAndHoleJoint"
+    },
+    "id" : "51",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Tool",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tool"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Task",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Task"
+    },
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Subassembly",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subassembly"
+    },
+    "id" : "48",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ScrewAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ScrewAA"
+    },
+    "id" : "70",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Assembly",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Assembly"
+    },
+    "id" : "126",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ThreadJoint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ThreadJoint"
+    },
+    "id" : "50",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#SharedActionParameters",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SharedActionParameters"
+    },
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Object",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Object"
+    },
+    "subClasses" : [ "64", "126", "48", "52" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ScrewPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ScrewPT"
+    },
+    "id" : "82",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#RotatePT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RotatePT"
+    },
+    "id" : "78",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "214",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#AssemblableFeature",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AssemblableFeature"
+    },
+    "id" : "64",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#GraspAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GraspAA"
+    },
+    "id" : "74",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#PlaceAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlaceAA"
+    },
+    "id" : "75",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Subject",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subject"
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#Jig",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Jig"
+    },
+    "id" : "163",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#PlacePT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlacePT"
+    },
+    "id" : "81",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#InsertAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InsertAA"
+    },
+    "id" : "66",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#TargetObject",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TargetObject"
+    },
+    "id" : "44",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ManipulatedObject",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ManipulatedObject"
+    },
+    "id" : "9",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#SlideAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SlideAA"
+    },
+    "id" : "71",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#WorkBench",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkBench"
+    },
+    "id" : "167",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#WorkSpace",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkSpace"
+    },
+    "subClasses" : [ "163", "167" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#AtomicAction",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AtomicAction"
+    },
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#InsertPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InsertPT"
+    },
+    "id" : "79",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#SlidePT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SlidePT"
+    },
+    "id" : "80",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ApproachAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ApproachAA"
+    },
+    "id" : "72",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#RotateAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RotateAA"
+    },
+    "id" : "73",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "5",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "24",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "226",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "227",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "302",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "309",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "310",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "313",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "317",
+    "type" : "owl:disjointWith"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedWith",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "aaPerformedWith"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "6",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedOn",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "ptPerformedOn"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "12",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasProductName",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasProductName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasHoldPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasHoldPose"
+    },
+    "domain" : "19",
+    "attributes" : [ "datatype" ],
+    "id" : "18"
+  }, {
+    "range" : "12",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "12",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "15",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedTowardsWS",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "aaPerformedTowardsWS"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "15",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "29",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasObjectName",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasObjectName"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "range" : "29",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "34",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "12",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "34",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "34",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasWorkBenchPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasWorkBenchPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "range" : "34",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "34",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "12",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasToolName",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasToolName"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#assembledFromSA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "assembledFromSA"
+    },
+    "domain" : "48",
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "range" : "12",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "29",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#isObject",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "isObject"
+    },
+    "domain" : "43",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasJigPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "hasJigPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasToolPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasToolPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "range" : "29",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "29",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedOnWS",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "aaPerformedOnWS"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasAF",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasAF"
+    },
+    "domain" : "52",
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasInsertForce",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasInsertForce"
+    },
+    "domain" : "66",
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSpecialRequirementT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasSpecialRequirementT"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasWorkSpaceName",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasWorkSpaceName"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSlideContactPoint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasSlideContactPoint"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasPartItemNumber",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "hasPartItemNumber"
+    },
+    "domain" : "52",
+    "attributes" : [ "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasGraspPosition",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "hasGraspPosition"
+    },
+    "domain" : "74",
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasScrewGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasScrewGoalPose"
+    },
+    "domain" : "70",
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSlideTrajectory",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "hasSlideTrajectory"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasMoveGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "hasMoveGoalPose"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasExecutionTimeAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "hasExecutionTimeAA"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasToolID",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "hasToolID"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedTowardsTool",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "aaPerformedTowardsTool"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedTowards",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "aaPerformedTowards"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasThreadSpecification",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "hasThreadSpecification"
+    },
+    "domain" : "50",
+    "attributes" : [ "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasToolItemNumber",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "hasToolItemNumber"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#produces",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "produces"
+    },
+    "domain" : "15",
+    "attributes" : [ "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubassemblyItemNumber",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "hasSubassemblyItemNumber"
+    },
+    "domain" : "48",
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasExecutionTimePT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "hasExecutionTimePT"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasJoint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasJoint"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#decomposeToPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "decomposeToPT"
+    },
+    "domain" : "15",
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#composedOfPart",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "composedOfPart"
+    },
+    "domain" : "126",
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasFittingTolerance",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "hasFittingTolerance"
+    },
+    "domain" : "51",
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasObjectGeometricFeature",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "hasObjectGeometricFeature"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#decomposeToAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "decomposeToAA"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasProductItemNumber",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "hasProductItemNumber"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "138"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "15",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "19",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasPlaceGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "hasPlaceGoalPose"
+    },
+    "domain" : "75",
+    "attributes" : [ "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasScrewPreload",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "hasScrewPreload"
+    },
+    "domain" : "70",
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#assembledFromPart",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "assembledFromPart"
+    },
+    "domain" : "48",
+    "attributes" : [ "object" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#applied_to",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "applied_to"
+    },
+    "domain" : "49",
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#precedesAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "precedesAA"
+    },
+    "domain" : "100",
+    "attributes" : [ "object" ],
+    "id" : "148"
+  }, {
+    "range" : "19",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "19",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "8",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "8",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "66",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "29",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "74",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "29",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "19",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "29",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "19",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "29",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "74",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "6",
+    "domain" : "163",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedOnTool",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "aaPerformedOnTool"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "164"
+  }, {
+    "range" : "74",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "6",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "74",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasToolCapability",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "hasToolCapability"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "169"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "8",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasActionAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasActionAA"
+    },
+    "domain" : "100",
+    "attributes" : [ "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasGraspForce",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "hasGraspForce"
+    },
+    "domain" : "74",
+    "attributes" : [ "datatype" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedOnTool",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "ptPerformedOnTool"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#is",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "is"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "176"
+  }, {
+    "range" : "74",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "71",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "74",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "1",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "75",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "1",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "13",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "70",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "1",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "74",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "189"
+  }, {
+    "range" : "1",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "range" : "1",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "66",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "8",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "range" : "19",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "8",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "195"
+  }, {
+    "range" : "29",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "1",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "1",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasActionPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasActionPT"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "200"
+  }, {
+    "range" : "1",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubjectName",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "hasSubjectName"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubjectPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hasSubjectPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedTowardsWS",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "ptPerformedTowardsWS"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasTOPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "hasTOPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubassemblyInterferenceMatrix",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "hasSubassemblyInterferenceMatrix"
+    },
+    "domain" : "48",
+    "attributes" : [ "datatype" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSlideForceTrajectory",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "hasSlideForceTrajectory"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "208"
+  }, {
+    "range" : "43",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "1",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedBy",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "aaPerformedBy"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "212"
+  }, {
+    "range" : "49",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "100",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedTowards",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "ptPerformedTowards"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "216"
+  }, {
+    "range" : "70",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "43",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "75",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "43",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "49",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "71",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "49",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "75",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "75",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasMOPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "hasMOPose"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSpecialRequirementPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "hasSpecialRequirementPT"
+    },
+    "domain" : "34",
+    "attributes" : [ "datatype" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasRotateGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasRotateGoalPose"
+    },
+    "domain" : "73",
+    "attributes" : [ "datatype" ],
+    "id" : "229"
+  }, {
+    "range" : "71",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "75",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "range" : "66",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSpecialRequirementAA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "hasSpecialRequirementAA"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype" ],
+    "id" : "234"
+  }, {
+    "range" : "70",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "73",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "66",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "66",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSharedActionParam",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasSharedActionParam"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "241"
+  }, {
+    "range" : "66",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#precedesPT",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "precedesPT"
+    },
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "244"
+  }, {
+    "range" : "66",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "43",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "29",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "12",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "43",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedOnWS",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "ptPerformedOnWS"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "250"
+  }, {
+    "range" : "43",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasObjectID",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "hasObjectID"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasApproachPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "214",
+    "label" : {
+      "IRI-based" : "hasApproachPose"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasGraspPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "hasGraspPose"
+    },
+    "domain" : "74",
+    "attributes" : [ "datatype" ],
+    "id" : "254"
+  }, {
+    "range" : "43",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "255"
+  }, {
+    "range" : "8",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedBy",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "ptPerformedBy"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "257"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "12",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "15",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "29",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "49",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "range" : "34",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedTowardsTool",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "ptPerformedTowardsTool"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "266"
+  }, {
+    "range" : "43",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "100",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#composedOfSA",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "composedOfSA"
+    },
+    "domain" : "126",
+    "attributes" : [ "object" ],
+    "id" : "271"
+  }, {
+    "range" : "12",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "range" : "1",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "49",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasWorkSpaceID",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasWorkSpaceID"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "276"
+  }, {
+    "range" : "49",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#aaPerformedOn",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "aaPerformedOn"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "278"
+  }, {
+    "range" : "29",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "49",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "49",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "49",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasAssemblyItemNumber",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "hasAssemblyItemNumber"
+    },
+    "domain" : "126",
+    "attributes" : [ "datatype" ],
+    "id" : "283"
+  }, {
+    "range" : "12",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "82",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasRotateAngle",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "hasRotateAngle"
+    },
+    "domain" : "73",
+    "attributes" : [ "datatype" ],
+    "id" : "286"
+  }, {
+    "range" : "80",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "78",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "82",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "80",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  }, {
+    "range" : "82",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "78",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "82",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#ptPerformedWith",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "ptPerformedWith"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "294"
+  }, {
+    "range" : "79",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasInsertGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "hasInsertGoalPose"
+    },
+    "domain" : "66",
+    "attributes" : [ "datatype" ],
+    "id" : "296"
+  }, {
+    "range" : "78",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "100",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "100",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  }, {
+    "range" : "49",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "300"
+  }, {
+    "range" : "29",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "301"
+  }, {
+    "range" : "12",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "302"
+  }, {
+    "range" : "100",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "303"
+  }, {
+    "range" : "100",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "100",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "100",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "range" : "29",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "307"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasObjectAffordance",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "hasObjectAffordance"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype" ],
+    "id" : "308"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSlideGoalPose",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "hasSlideGoalPose"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype" ],
+    "id" : "309"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubjectCapability",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hasSubjectCapability"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "310"
+  }, {
+    "range" : "49",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasSubjectID",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "hasSubjectID"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "312"
+  }, {
+    "iri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT#hasRotateContactPoint",
+    "baseIri" : "http://www.semanticweb.org/zh521/ontologies/2023/2/HR-SAT",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "hasRotateContactPoint"
+    },
+    "domain" : "73",
+    "attributes" : [ "datatype" ],
+    "id" : "313"
+  }, {
+    "range" : "43",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "314"
+  }, {
+    "range" : "43",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "315"
+  }, {
+    "range" : "43",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "316"
+  }, {
+    "range" : "43",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "317"
+  } ]
+}
