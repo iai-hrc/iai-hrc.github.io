@@ -6,10 +6,15 @@
     justify-content: center; 
     align-items: center;} 
 
-.gifSize { 
-    max-width: 140%; 
-}
+.justified {  
+  text-align: justify;
+  text-justify: inter-word;} 
 
+
+.gifSize { 
+    max-width: 130%; 
+    justify-content: center; 
+}
 
 .button {
     border: none;

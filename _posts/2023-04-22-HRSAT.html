@@ -6,8 +6,11 @@ date: 2023-04-22 10:45:13 +1200
 background: '/img/posts/human_robot_hands.jpg'
 permalink: hr-sat
 ---
+
+<p class="justified"><b>REMINDER: ADD CONTENTS LATER</b></p>
+
 <h2 class="section-heading">Human-Robot Knowledge Transfer</h2>
-<p>
+<p class="justified">
     Future manufacturing will witness a shift in human-robot relationships towards collaboration, 
     compassion and coevolution. This will require seamless human-robot knowledge transfer. 
     Differences in language and knowledge representation hinder the transfer of knowledge 
@@ -16,45 +19,52 @@ permalink: hr-sat
     propose the Human-Robot Shared Assembly Taxonomy (HR-SAT). With HR-SAT, any comprehensive 
     assembly task can be represented as a knowledge graph that both humans and robots can understand. 
 </p>
-
-<h2 class="section-heading">The HR-SAT</h2>
-<p>
-    The proposed HR-SAT can express diverse assembly processes as a formal, structured and unified 
-    representation that can be shared by humans and robots. This representation hierarchy is 
-    applicable to various applications.
+<p class="justified">
+    HR-SAT enables utilisation in various applications as a hierarchical, consistent and 
+    information-rich representation
 </p>
-
+<hr>
 <div class="parentDiv">
-<img class="gifSize" src="/img/posts/application.gif" alt="Demo Image">
-</div>
-<span class="caption text-muted">Applications of the HR-SAT</span>
-
-
-<h2 class="section-heading">the interactive window</h2>
-<iframe align="center" width="100%" height ="500px" src="/webvowl/index.html"></iframe> 
-
-<p><em>Click the button below to enter the element into fullscreen mode. </em></p>
-<div class="element" id="element"><iframe align="center" width="100%" height ="100%" src="/webvowl/index.html"></iframe></div>
-<br />
-<button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
-    Go Full Screen!
-</button>
-
-
-
-
-
-
-<h2 class="section-heading">a video</h2>
-<div class="parentDiv">
-    <video preload="auto" controls muted loop autoplay width="100%">
-        <source src="/box_video.mp4" type="video/mp4">
+    <video controls muted loop autoplay width="100%">
+        <source src="/application_video.mp4" type="video/mp4">
     </video>
 </div>  
 
+<h2 class="section-heading">HR-SAT</h2>
+<p class="justified">
+    HR-SAT has a hierarchical structure which decomposes a task into primitive tasks 
+    and primitive tasks into atomic actions. Definitions of <em>task</em>, <em>primitive task</em> 
+    and <em>atomic action</em> are based on <em>functional state changes</em> and 
+    <em>interaction state changes</em>.
+</p>
+<p class="justified">
+    For better utilisation of HR-SAT, we also define nine assembly actions common in assembly processes.
+</p>
+<hr>
+<div class="parentDiv">
+    <video preload="metadata" controls muted loop width="100%">
+        <source src="/structure_video.mp4" type="video/mp4">
+    </video>
+</div>  
 
+<div class="parentDiv">
+    <video controls muted loop autoplay width="100%">
+        <source src="/structure_video2.mp4" type="video/mp4">
+    </video>
+</div> 
 
+<h2 class="section-heading">Task description framework modeling</h2>
+<p class="justified">
+    We use a knowledge graph to model the assembly task description framework to 
+    integrate heterogenous information, interface with neural networks and for its 
+    flexibility and scalability.
+</p>
 
+<div class="element" id="element"><iframe align="center" width="100%" height ="100%" src="/webvowl/index.html"></iframe></div>
+<br />
+<button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+    Open in full screen
+</button>
 
 
 <h2 class="section-heading">Buttons for file download</h2>
