@@ -7,7 +7,7 @@ background: '/img/posts/human_robot_hands.jpg'
 permalink: hr-sat
 ---
 
-<p class="justified"><b>REMINDER: ADD CONTENTS LATER</b></p>
+<p class="justified"><b>REMINDER: ADD CONTENTS LATER, also add acknolwedgements, authors</b></p>
 
 <h2 class="section-heading">Human-Robot Knowledge Transfer</h2>
 <p class="justified">
@@ -18,20 +18,15 @@ permalink: hr-sat
     by humans and robots is essential. Driven by this need in a product assembly scenario, we 
     propose the Human-Robot Shared Assembly Taxonomy (HR-SAT). With HR-SAT, any comprehensive 
     assembly task can be represented as a knowledge graph that both humans and robots can understand. 
-</p>
-<p class="justified">
+    <br /><br />
     HR-SAT enables utilisation in various applications as a hierarchical, consistent and 
     information-rich representation
 </p>
 <hr>
+
 <div class="parentDiv">
     <video controls muted loop autoplay width="100%">
-        <source src="/application_video.mp4" type="video/mp4">
-    </video>
-</div>
-<div class="parentDiv">
-    <video controls muted loop autoplay width="100%">
-        <source src="/application_video2.mp4" type="video/mp4">
+        <source src="/videos/application_video.mp4" type="video/mp4">
     </video>
 </div>    
 
@@ -41,20 +36,14 @@ permalink: hr-sat
     and primitive tasks into atomic actions. Definitions of <em>task</em>, <em>primitive task</em> 
     and <em>atomic action</em> are based on <em>functional state changes</em> and 
     <em>interaction state changes</em>.
-</p>
-<p class="justified">
+    <br /><br />
     For better utilisation of HR-SAT, we also define nine assembly actions common in assembly processes.
 </p>
 <hr>
-<div class="parentDiv">
-    <video preload="metadata" controls muted loop width="100%">
-        <source src="/structure_video.mp4" type="video/mp4">
-    </video>
-</div>  
 
 <div class="parentDiv">
-    <video controls muted loop autoplay width="100%">
-        <source src="/structure_video2.mp4" type="video/mp4">
+    <video controls muted loop width="100%">
+        <source src="/videos/structure_video.mp4" type="video/mp4">
     </video>
 </div> 
 
@@ -63,18 +52,91 @@ permalink: hr-sat
     We use a knowledge graph to model the assembly task description framework to 
     integrate heterogenous information, interface with neural networks and for its 
     flexibility and scalability.
+    <br /><br />
+    The RDF/XML file for the task description framework can be downloaded below.
 </p>
 
-<div class="element" id="element"><iframe align="center" width="100%" height ="100%" src="/webvowl/index.html"></iframe></div>
+<div class="centred">
+    <a href="/HR-SAT.xml" download>
+        <button class="buttonDownload buttonDownload1">HR-SAT</button>
+    </a>
+</div>
+
+<div>
+    <button class="buttonFS buttonFS1" onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+    Open in full screen</button>
+    <iframe class="element" id="element" src="/webvowl/index.html"></iframe>
+</div>
+
+<hr>
+<h2 class="section-heading">Case Studies</h2>
+<p class="justified">
+    We present two application case studies to demonstrate the utilisation and significance of HR-SAT 
+    in diverse applications. 
+</p>
+
+<h3>Case Study 1: Assistive Assembly and Quality Assurance</h3>
+<div class="parentDiv">
+    <video controls muted loop autoplay width="100%">
+        <source src="/videos/valve_video.mp4" type="video/mp4">
+    </video>
+</div> 
+<p class="justified">
+    HR-SAT can generate a unified representation to obtain instructions in an assistive assembly system 
+    with quality assurance. This case study presents an assistive assembly and quality assurance 
+    framework for a hydraulic valve assembly.
+</p>
+<div class="parentDiv">
+    <video controls muted loop width="100%">
+        <source src="/videos/casestudy1.mp4" type="video/mp4">
+    </video>
+</div> 
+<p class="justified">
+    The RDF/XML file for the Assitive Assembly Case Study can be downloaded below.
+</p>
+<div class="centred">
+    <a href="/download_files/CS1_AssistiveAssembly.xml" download>
+        <button class="buttonDownload buttonDownload1" top='-10px' left="10px">Assistive Assembly</button>
+    </a>
+</div>
+<hr>
 <br />
-<button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
-    Open in full screen
-</button>
+<h3>Case Study 2: Human-Robot Collaborative Assembly</h3>
+<div class="parentDiv">
+    <video controls muted loop autoplay width="100%">
+        <source src="/videos/box_video.mp4" type="video/mp4">
+    </video>
+</div> 
+<p class="justified">
+    HR-SAT can generate a unified representation of collaborative tasks to coordinate agents in 
+    human-robot collaboration (HRC). This case study presents a human-robot collaborative assembly 
+    framework for the Generic Assembly Box (GAB).
+</p>
 
 
-<h2 class="section-heading">Buttons for file download</h2>
-<button class="button button1">Green</button>
-<button class="button button2">Blue</button>
+<div class="parentDiv">
+    <video controls muted loop width="100%">
+        <source src="/videos/casestudy2.mp4" type="video/mp4">
+    </video>
+</div> 
+<p class="justified">
+    Two task graphs are created in case study 2: the Agent-agnostic Task Graph and the HRC Task Graph.
+    <br /><br />
+    The RDF/XML files for the Agent-agnostic Task Graph can be downloaded below.
+</p>
+<div class="centred">
+    <a href="/download_files/CS2_Subject-agnostic_TaskGraph.owl" download>
+        <button class="buttonDownload buttonDownload1">Agent-agnostic Task Graph</button>
+    </a>
+    <a href="/download_files/CS2_Subject-agnostic_TaskGraph.owl" download>
+        <button class="buttonDownload buttonDownload1">HRC Task Graph</button>
+    </a>
+</div>
 
-
-<a href="/HR-SAT.owl" download><button class="button button2">Download OWL</button></a>
+<br />
+<div class="parentDiv">
+    <video controls muted loop width="100%">
+        <source src="/videos/box_assembly_with_instructions.mp4" type="video/mp4">
+    </video>
+</div> 
+<span class="caption text-muted">Video of worker performing assembly with instructions</span>

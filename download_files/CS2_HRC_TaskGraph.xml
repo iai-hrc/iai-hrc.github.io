@@ -1,0 +1,2445 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#"
+     xml:base="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#appliedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#appliedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#assembledFromPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#assembledFromPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#assembledFromSA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#assembledFromSA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#collaboratesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#collaboratesWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#composedOfPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#composedOfPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#composedOfSA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#composedOfSA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#decomposeToAA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#decomposeToAA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#decomposeToPT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#decomposeToPT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasAF -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasAF">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasActionPattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasActionPattern">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasJoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasJoint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasManipulator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasManipulator">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Manipulator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSharedActionParam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSharedActionParam">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isAssembly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isAssembly">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isObject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOnTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOnTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOnWS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedOnWS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowards -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowardsTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowardsTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowardsWS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedTowardsWS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#performedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#precedesAA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#precedesAA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#precedesPT -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#precedesPT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#produces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#produces">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasApproachPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasApproachPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasAssemblyItemNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasAssemblyItemNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasExecutionAA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasExecutionAA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasExecutionTimePT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasExecutionTimePT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasFittingTolerance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasFittingTolerance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ShaftAndHoleJoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspPosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasGraspPosition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasHoldPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasHoldPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Hold"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasInsertForce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasInsertForce">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasInsertGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasInsertGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasJigPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasJigPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasMOPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasMOPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasMoveGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasMoveGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectAffordance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectAffordance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectGeometricFeature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectGeometricFeature">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasObjectName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasPartItemNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasPartItemNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasPlaceGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasPlaceGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasProductItemNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasProductItemNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasProductName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasProductName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateAngle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateContactPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateContactPoint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateDirection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasRotateGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewInDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewInDirection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewTorque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasScrewTorque">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideContactPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideContactPoint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideForceTrajectory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideForceTrajectory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideGoalPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideGoalPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideTrajectory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSlideTrajectory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementAA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementAA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementPT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementPT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSpecialRequirementT">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubassemblyInterferenceMatrix -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubassemblyInterferenceMatrix">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubassemblyItemNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubassemblyItemNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectCapability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasSubjectPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasTOPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasTOPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasThreadSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasThreadSpecification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ThreadJoint"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolCapability -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolCapability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolItemNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolItemNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasToolPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWSID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWSID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWSName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWSName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWorkBenchPose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#hasWorkBenchPose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isKeyAtomicAction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#isKeyAtomicAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Hold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Hold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Jig -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Jig">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Manipulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Manipulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ShaftAndHoleJoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ShaftAndHoleJoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Slide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subassembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ThreadJoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ThreadJoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkBench -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkBench">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT1"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT10"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place_PT11"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT12"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate_PT13"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT2"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT3"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT4"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT5"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT6"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT7"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT8"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT9"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT12"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT2"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT4"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT7"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT9"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT12"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT2"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT4"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT7"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT9"/>
+        <precedesAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT12"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT2"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT4"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT7"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+        <hasActionPattern rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT9"/>
+        <isKeyAtomicAction rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isKeyAtomicAction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotScrewDriver"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach_AA1_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Approach"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxAssembly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxAssembly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT1"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT11"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT2"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT3"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT6"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT8"/>
+        <decomposeToPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9"/>
+        <produces rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GeneticAssemblyBox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxBase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxBase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasAF rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGL"/>
+        <hasAF rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGS"/>
+        <hasAF rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGW"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasObjectID>
+        <hasObjectName>Genetic Assembly Box Base</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GABAssembly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GABAssembly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxBase"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearL"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearS"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ScrewPhillips"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasObjectID>
+        <hasObjectName>Large Gear</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</hasObjectID>
+        <hasObjectName>Small Gear</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GeneticAssemblyBox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GeneticAssemblyBox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+        <isAssembly rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GABAssembly"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp_AA2_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Grasp"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature"/>
+        <hasObjectName>Hole Gear Large</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature"/>
+        <hasObjectName>Hole Gear Small</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblableFeature"/>
+        <hasObjectName>Hole Worm Gear</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Insert"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasObjectID>
+        <hasObjectName>Large Spacer</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasObjectID>
+        <hasObjectName>LargeSpacer</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ScrewPhillips"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move_AA3_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Move"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hasObjectID>
+        <hasObjectName>Nut</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasObjectID>
+        <hasObjectName>Nut</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT1"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT10"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT11"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT12"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT12"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT12"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT12"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT2"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT2"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT2"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT2"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT3"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT4"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT4"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT4"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT4"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT5"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT6"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT7"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT7"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT7"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT7"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT8"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA1_PT9"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA2_PT9"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA3_PT9"/>
+        <decomposeToAA rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AA4_PT9"/>
+        <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Place"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Robot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Robot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Agent"/>
+        <hasManipulator rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper"/>
+        <hasManipulator rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotScrewDriver"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotGripper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Manipulator"/>
+        <hasSubjectName>Robot Gripper</hasSubjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotScrewDriver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotScrewDriver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Manipulator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate_PT13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate_PT13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Rotate"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ScrewPhillips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ScrewPhillips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</hasObjectID>
+        <hasObjectName>Screw Phillips</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT1"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT10"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#RobotScrewDriver"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT12"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT5"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Screw"/>
+        <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
+        <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6"/>
+        <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT6"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasObjectID>
+        <hasObjectName>Shaft</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasObjectID>
+        <hasObjectName>Shaft</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hasObjectID>
+        <hasObjectName>Small Spacer</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</hasObjectID>
+        <hasObjectName>Small Spacer</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxBase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGW"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</hasObjectID>
+        <hasObjectName>Worm Gear</hasObjectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <hasToolName>Wrench Nut</hasToolName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <hasToolName>Wrench Shaft</hasToolName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ActionPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AssemblyObject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#AtomicAction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Joint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Product"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SharedActionParameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Subject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Task"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WorkSpace"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
