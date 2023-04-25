@@ -4,8 +4,8 @@ title:              IAI-HRC
 email:              iai.hrc@gmail.com
 description:        The HRC team in the IAI Research Group
 author:             IAI-HRC
-baseurl:            
-url:                "https://iai-hrc.github.io"
+baseurl:            "/hrc"
+url:                "https://iai.auckland.ac.nz"
 
 # Social Profiles
 github_username:    IAI-HRC-github
