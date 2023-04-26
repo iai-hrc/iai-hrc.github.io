@@ -1,11 +1,11 @@
 theme: jekyll-theme-clean-blog
 
 title:              IAI-HRC
-email:              iai.hrc@gmail.com
-description:        The HRC team in the IAI Research Group
+email:              yuqian.lu@auckland.ac.nz
+description:        The HRC project at the Industrial AI Research Team@UoA
 author:             IAI-HRC
-baseurl:            "/hrc"
-url:                "https://iai.auckland.ac.nz"
+baseurl:            
+url:                "https://iai-hrc.github.io"
 
 # Social Profiles
 github_username:    IAI-HRC-github

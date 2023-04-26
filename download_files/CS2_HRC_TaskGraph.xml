@@ -1438,6 +1438,7 @@
         <hasAF rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#HoleGW"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasObjectID>
         <hasObjectName>Genetic Assembly Box Base</hasObjectName>
+        <hasPartItemNumber>bx</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -1449,16 +1450,16 @@
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BoxBase"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearL"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearS"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearWorm"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut1"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Nut2"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ScrewPhillips"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft1"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Shaft2"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall1"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall2"/>
     </owl:NamedIndividual>
     
 
@@ -1469,6 +1470,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasObjectID>
         <hasObjectName>Large Gear</hasObjectName>
+        <hasPartItemNumber>gl-40</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -1479,6 +1481,18 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</hasObjectID>
         <hasObjectName>Small Gear</hasObjectName>
+        <hasPartItemNumber>gs-23</hasPartItemNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearWorm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearWorm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</hasObjectID>
+        <hasObjectName>GearWorm</hasObjectName>
+        <hasPartItemNumber>gw</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -1706,26 +1720,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
-        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasObjectID>
-        <hasObjectName>Large Spacer</hasObjectName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
-        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasObjectID>
-        <hasObjectName>LargeSpacer</hasObjectName>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1">
@@ -1748,7 +1742,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT11">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearWorm"/>
     </owl:NamedIndividual>
     
 
@@ -1766,7 +1760,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT13">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#GearWorm"/>
     </owl:NamedIndividual>
     
 
@@ -1775,7 +1769,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer1"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge1"/>
     </owl:NamedIndividual>
     
 
@@ -1793,7 +1787,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT4">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall1"/>
     </owl:NamedIndividual>
     
 
@@ -1820,7 +1814,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT7">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#LargeSpacer2"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge2"/>
     </owl:NamedIndividual>
     
 
@@ -1838,7 +1832,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT9">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall2"/>
     </owl:NamedIndividual>
     
 
@@ -1962,6 +1956,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</hasObjectID>
         <hasObjectName>Nut</hasObjectName>
+        <hasPartItemNumber>nt-10</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -1972,6 +1967,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasObjectID>
         <hasObjectName>Nut</hasObjectName>
+        <hasPartItemNumber>nt-10</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -2174,6 +2170,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</hasObjectID>
         <hasObjectName>Screw Phillips</hasObjectName>
+        <hasPartItemNumber>sp-0810</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -2185,7 +2182,7 @@
         <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
         <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT1"/>
         <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT1"/>
-        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchL"/>
     </owl:NamedIndividual>
     
 
@@ -2219,7 +2216,7 @@
         <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
         <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT5"/>
         <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT5"/>
-        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchS"/>
     </owl:NamedIndividual>
     
 
@@ -2231,7 +2228,7 @@
         <performedBy rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Human"/>
         <performedOn rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT6"/>
         <performedTowards rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT6"/>
-        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft"/>
+        <performedWith rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchL"/>
     </owl:NamedIndividual>
     
 
@@ -2242,6 +2239,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasObjectID>
         <hasObjectName>Shaft</hasObjectName>
+        <hasPartItemNumber>ft</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -2252,26 +2250,51 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasObjectID>
         <hasObjectName>Shaft</hasObjectName>
+        <hasPartItemNumber>ft</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1 -->
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer1">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasObjectID>
+        <hasObjectName>SpacerLarge</hasObjectName>
+        <hasPartItemNumber>pl-15</hasPartItemNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerLarge2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasObjectID>
+        <hasObjectName>SpacerLarge</hasObjectName>
+        <hasPartItemNumber>pl-15</hasPartItemNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall1">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hasObjectID>
-        <hasObjectName>Small Spacer</hasObjectName>
+        <hasObjectName>SpacerSmall</hasObjectName>
+        <hasPartItemNumber>ps-10</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2 -->
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SmallSpacer2">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#SpacerSmall2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</hasObjectID>
-        <hasObjectName>Small Spacer</hasObjectName>
+        <hasObjectName>SpacerSmall</hasObjectName>
+        <hasPartItemNumber>ps-10</hasPartItemNumber>
     </owl:NamedIndividual>
     
 
@@ -2384,30 +2407,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear -->
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchL -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WormGear">
-        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
-        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</hasObjectID>
-        <hasObjectName>Worm Gear</hasObjectName>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
+        <hasToolItemNumber>wl-19</hasToolItemNumber>
+        <hasToolName>WrenchL</hasToolName>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut -->
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchS -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchNut">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchS">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
-        <hasToolName>Wrench Nut</hasToolName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#WrenchShaft">
-        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Tool"/>
-        <hasToolName>Wrench Shaft</hasToolName>
+        <hasToolItemNumber>WrenchS</hasToolItemNumber>
+        <hasToolName>WrenchS</hasToolName>
     </owl:NamedIndividual>
     
 

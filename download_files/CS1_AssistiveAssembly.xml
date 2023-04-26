@@ -1125,16 +1125,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BackUp -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BackUp">
-        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
-        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasObjectID>
-        <hasObjectName>Check Valve Back Up</hasObjectName>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Body -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Body">
@@ -1172,7 +1162,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#CheckValveAssembly">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Assembly"/>
-        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BackUp"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Body"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BodyInsert"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#DustCap1"/>
@@ -1180,6 +1169,7 @@
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#EndCap"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ring1"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ring2"/>
+        <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ringBackUp"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Poppet"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PoppetSpring"/>
         <composedOfPart rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Seat"/>
@@ -1372,7 +1362,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#MO_PT2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#ManipulatedObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BackUp"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ringBackUp"/>
     </owl:NamedIndividual>
     
 
@@ -1446,7 +1436,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ring1">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasObjectID>
-        <hasObjectName>O-ring Standard Back Up</hasObjectName>
+        <hasObjectName>O-ring</hasObjectName>
         <hasPartItemNumber>ORBI000-000</hasPartItemNumber>
     </owl:NamedIndividual>
     
@@ -1457,8 +1447,18 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ring2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
         <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasObjectID>
-        <hasObjectName>O-ring Standard End Cap</hasObjectName>
+        <hasObjectName>O-ring</hasObjectName>
         <hasPartItemNumber>ORRI000-000</hasPartItemNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ringBackUp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ringBackUp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#Part"/>
+        <hasObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasObjectID>
+        <hasObjectName>O-ringBackUp</hasObjectName>
     </owl:NamedIndividual>
     
 
@@ -1480,8 +1480,10 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT10"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT11"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12"/>
+        <hasSpecialRequirementPT>Ensure EndO-ring is sitting nicely in the groove and does not want to fall.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1490,6 +1492,7 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT11">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT11"/>
     </owl:NamedIndividual>
     
 
@@ -1498,6 +1501,7 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT12">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT12"/>
     </owl:NamedIndividual>
     
 
@@ -1506,8 +1510,9 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT2"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT3"/>
-        <hasSpecialRequirementPT>Ensure the curved side of the Back Up O-ring is facing up.</hasSpecialRequirementPT>
+        <hasSpecialRequirementPT>Ensure the curved side of the BackUp is facing up.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1518,6 +1523,7 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
         <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT3"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4"/>
+        <hasSpecialRequirementPT>Ensure the O-ring on top of the BackUpO-ring</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1526,9 +1532,9 @@ Ensure the plane side of End Cap facing down.</hasSpecialRequirementPT>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT4">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT4"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5"/>
-        <hasSpecialRequirementPT>Prior to PT4, brush anti seize on the End Cap thread.
-Fit the appropriate jig to the bench and place the End Cap into the hex slot.</hasSpecialRequirementPT>
+        <hasSpecialRequirementPT>Prior to this step, brush anti seize onto the EndCap thread.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1537,6 +1543,7 @@ Fit the appropriate jig to the bench and place the End Cap into the hex slot.</h
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT5">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT5"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT6"/>
     </owl:NamedIndividual>
     
@@ -1546,8 +1553,8 @@ Fit the appropriate jig to the bench and place the End Cap into the hex slot.</h
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT6">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT6"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7"/>
-        <hasSpecialRequirementPT>Place the Body insert over the End Cap and Centre it.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1556,9 +1563,9 @@ Fit the appropriate jig to the bench and place the End Cap into the hex slot.</h
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT7">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT7"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9"/>
-        <hasSpecialRequirementPT>Place the valve poppet over the Spring and End Cap.
-Ensure the poppet sealing face is not scratched during assembly.</hasSpecialRequirementPT>
+        <hasSpecialRequirementPT>Ensure the Poppet sealing face is not scratched during assembly.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1567,8 +1574,9 @@ Ensure the poppet sealing face is not scratched during assembly.</hasSpecialRequ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT8">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT8"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9"/>
-        <hasSpecialRequirementPT>Prior to PT8, apply a small amount of silicone grease to the seat groove at the bottom of the body. Locate the seat into the groove at the bottom of the body and ensure it is pushed in correctly. Ensure the angled side of the seat is facing up.</hasSpecialRequirementPT>
+        <hasSpecialRequirementPT>Prior to this step, apply a small amount of silicone grease to the seat groove at the bottom of the Body. Ensure the angled side of the Seat is facing up.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1577,8 +1585,8 @@ Ensure the poppet sealing face is not scratched during assembly.</hasSpecialRequ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT9">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PrimitiveTask"/>
+        <decomposeToAA rdf:resource="http://iai-hrc.github.io/hr-sat/cs1_assistive_assembly#KeyAA_PT9"/>
         <precedesPT rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#PT10"/>
-        <hasSpecialRequirementPT>Screw the Body of the check valve onto the End Cap being careful to align the body with the body insert when doing so.</hasSpecialRequirementPT>
     </owl:NamedIndividual>
     
 
@@ -1651,7 +1659,7 @@ Ensure the poppet sealing face is not scratched during assembly.</hasSpecialRequ
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TO_PT11">
         <rdf:type rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#TargetObject"/>
-        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#BackUp"/>
+        <isObject rdf:resource="http://www.semanticweb.org/zh521/ontologies/2023/3/untitled-ontology-63#O-ringBackUp"/>
     </owl:NamedIndividual>
     
 
