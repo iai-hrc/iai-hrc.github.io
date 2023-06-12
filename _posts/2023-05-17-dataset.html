@@ -1,28 +1,238 @@
 ---
 layout: post
 title: "HA-ViD: A Human Assembly Video Dataset"
-subtitle: "A step towards comprehensive video understanding for real-world assembly applications"
-date: 2023-04-20 10:45:13 +1200
-background: '/img/posts/human_assembly.jpg'
+subtitle: "for Comprehensive Assembly Knowledge Understanding"
+date: 2023-06-07 10:45:13 +1200
+background: '/img/posts/gears.jpg'
 permalink: ha-vid
 ---
+<!--Author list-->
+<div>
+    <p>
+        <b>Authors: Hao Zheng*, Regina Lee*, Yuqian Lu</b>
+        <a href="mailto:yuqian.lu@auckland.ac.nz"><i class="fas fa-envelope"></i></a>
+    </p>
+    <p style="font-size: 16px">
+        <i>* they contributed equally</i>
+    </p>
+</div>
+<hr>
+<br />
+<!--Download buttons-->
+<div class="div-multi-button">
+    <a href="https://openreview.net/forum?id=DILUIcDmU9" class="button-download" style="width:24%">
+        Paper
+    </a>
+    <a href="https://openreview.net/forum?id=DILUIcDmU9" class="button-download" style="width:24%">
+        Supplementary
+    </a>    
+    <a href="#request_access" class="button-download" style="width:24%">
+        Dataset
+    </a>     
+    <a href="https://github.com/iai-hrc/ha-vid" class="button-download" style="width:24%">
+        Github
+    </a> 
+</div>
+<!--Overview-->
+<div class="div-section-margins">
+    <h2 class="section-heading">Overview</h2>
+    <p>
+        In the pursuit of ultra-intelligent industrial applications, understanding comprehensive assembly knowledge from videos is critical. Application-oriented assembly knowledge include assembly progress, process efficiency, task collaboration, skill parameter and human intention understanding. To enable assembly video understanding to obtain this knowledge, a video dataset is required. Such a video dataset should (1) represent real-world assembly scenarios, and (2) capture the comprehensive assembly knowledge via (3) a consistent annotation protocol that aligns with human and robot assembly comprehension. Therefore, we present HA-ViD: a human assembly video dataset for comprehensive assembly knowledge understanding. 
+    </p>
+    <br />
+    <img src="/img/havid/figure1.png" width = 100% alt="HA-ViD"> 
+</div>
+<hr>
+<!--HA-ViD-->
+<div class="div-section-margins">
+    <h2 class="section-heading">HA-ViD</h2>
+    <p>
+        HA-VID is a human assembly video dataset that records people assembling our designed Generic Assembly Box (GAB). It is benchmarked on four foundation video understanding tasks and analyzed for its ability to comprehend application-oriented knowledge.
+        <br /><br />
+        HA-VID stands out with three key aspects:
+        <ul>
+            <li>Representative industrial assembly scenarios achieved via the designed GAB.</li>
+            <li>Natural procedural knowledge acquisition process achieved by implementing the designed three-stage progressive assembly during data collection.</li>
+            <li>Consistent human-robot shared annotations achieved via the Human-Robot Shared Assembly Taxonomy (HR-SAT) which provide detailed information on subjects, actions, manipulated objects, target objects, tools, collaboration status, pauses, and errors.</li>
+        </ul>
+    </p>
+</div>
+<!--GAB-->
+<div class="div-section-margins">
+    <h3 class="section-subheading">GAB</h3>
+    <video muted loop autoplay width="100%">
+        <source src="/videos/gab_480p.mp4" type="video/mp4">
+    </video>
+    <p>
+        To ensure representation of real-world industrial assembly scenarios, the GAB was designed. It is a 250x250x250mm box with 35 standard and non-standard parts commonly used in industrial assembly. Four standard tools are required for assembly. The GAB includes three plates with different task precedence and collaboration requirements, providing contextual links between actions and enabling situational action understanding.
+    </p>
+    <p>
+        The CAD files, Bill of Materials and instructions to replicate GAB be downloaded below. The Subject-agnostic task precedence graphs (SA-TPG) of the GAB plates can also be downloaded below as an .xml file.
+    </p>
+    <div class="div-multi-button">
+        <a href="https://www.dropbox.com/sh/cuvg2nv5etfm6v4/AAAddmZVa1W8vIjOVsll2AWqa?dl=0" download class="button-download" style="width:30%">
+            Download <br />GAB files
+        </a>
+        <a href="https://www.dropbox.com/sh/cuvg2nv5etfm6v4/AAAddmZVa1W8vIjOVsll2AWqa?dl=0" download class="button-download" style="width:30%">
+            Download <br />SA-TPG
+        </a>       
+    </div>
+</div>
+<!--Data Collection-->
+<div class="div-section-margins">
+    <h3 class="section-heading">Data Collection</h3>
+    <p>
+        Data was collected on three Azure Kinect RGB+D cameras mounted to an assembly workbench
+         facing the participant from left, front and top views.
+        <br /><br />
+        <img src="/img/havid/views.png" width = 100% alt="workbench"> 
+    </p>
+    <p>
+        To capture the progression of human procedural knowledge acquisition and behaviors 
+        during learning, a three-stage progressive assembly setup is designed. The stages 
+        include: 
+        <ul>
+            <li><i>Discovery</i>, where participants receive minimal exploded view instructions</li>
+            <li><i>Instruction</i>, where participants receive detailed step-by-step instructions</li>
+            <li><i>Practice</i>, where participants are asked to complete the task without instruction. </li>
+        </ul>
+        This design is inspired by <i>discovery learning</i> and allows for the observation of 
+        varying efficiency, alternative routes, pauses, and errors throughout the learning process.
+        <br /><br />
+        <video controls muted loop width="100%">
+            <source src="/videos/3_stages.mp4" type="video/mp4">
+        </video>
+    </p>
+    <p>
+        The instructions provided during the discovery and instruction stages can be downloaded below.
+    </p>
+    <div class="div-single-button">        
+        <a href="https://www.dropbox.com/sh/cuvg2nv5etfm6v4/AAAddmZVa1W8vIjOVsll2AWqa?dl=0" download class="button-download">
+            Download instructions
+        </a>       
+    </div>
+</div>
+<!--Data Annotation-->
+<div class="div-section-margins">
+    <h3 class="section-heading">Data Annotation</h3>
+    <p>
+        To enable human-robot assembly knowledge transfer, the structured temporal annotations 
+        are made following HR-SAT. HR-SAT ensures annotation transferability, adaptability, and 
+        consistency. The HR-SAT structure is briefly shown below. For more information, you can visit
+        the <a href="https://iai-hrc.github.io/hr-sat">HR-SAT website</a>.
+    </p>
+    <img src="/img/havid/taxonomy.png" width = 100% alt="HR-SAT"> 
+    <p>
+        We annotate human pause and error as null and wrong respectively to enable research on 
+        understanding assembly efficiency and learning progression.Our annotations treat each hand 
+        as a separate subject. Primitive tasks and atomic actions are labeled for each hand to support 
+        multi-subject collaboration related research. Alongside the primitive task annotations, we 
+        annotate the two-handed collaboration status.
+        <br /><br />
+        The video below shows how videos were annotated with temporal annotations.
+        <video controls muted loop width="100%">
+            <source src="/videos/annotations.mp4" type="video/mp4">
+        </video>
+    </p>
+    <p>
+        For spatial annotations, we use <a href="https://www.cvat.ai/">CVAT</a>, a video annotation tool, to label bounding boxes for subjects, objects and tools frame-by-frame. 
+        
+    </p>
+    <img src="/img/havid/cvat.png" width = 100% alt="cvat"> 
+</div>
 
-<blockquote class="blockquote"> Reviewers of our papers will be provided with the password to access the dataset via Openreview. The request form below will soon be updated with the password along with the updated Code of Conduct. </blockquote>
+<div class="div-section-margins">
+    <h2>Acknowledgements</h2>        
+    <p>
+        <i>
+            This project was funded by The University of Auckland FRDF New Staff Research Fund (No. 3720540)
+        </i>
+    </p>
+</div>
 
-Request Access to HA-ViD 
-<form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSd-7Xmuc6F3rHuIlJgZZi1aKB2oXqc6ztFosvepJXTAPc4zkQ/formResponse" method="post">
-    <br/>
-    <label>Name*</label>
-    <input type="text" placeholder="Name*" name="entry.1667351558" required>
-    <br/>
-    <label>University*</label>
-    <input type="text" placeholder="University*" name="entry.802403012" required>
-    <br/>
-    <label>Email Address*</label>
-    <input type="email" placeholder="Email address*" name="entry.643728497" required>
-    <br/>
-    <label>I agree to the Code of Conduct*</label>
-    <input type="checkbox" name="entry.1310284734" value="I agree to the terms and conditions" required>
-    <br/>
-    <button type="submit">Send</button>
-</form>
+<div class="div-section-margins">
+    <h2>License</h2>        
+    <p>
+        <i>
+            HA-ViD is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        </i>
+    </p>
+</div>
+
+<div class="div-section-margins">
+    <h2>Citation</h2>        
+    <pre>
+        <code>
+@article{
+    title = {HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding},
+    author = {H. Zheng and R. Lee and Y. Lu},
+}            
+        </code>
+    </pre>
+</div>
+
+<div class="div-section-margins" id="request_access">
+    <h2>Request Access to HA-ViD</h2>
+    <!--    
+    <p>
+        <blockquote class="blockquote"> Reviewers of our papers will be provided with the password to access the dataset via Openreview. The request form below will soon be updated with the password along with the updated Code of Conduct. </blockquote>
+    </p>  
+     
+    <script>
+        function read_ToC() {
+            document.getElementById('name').disabled = false;
+            document.getElementById('affiliation').disabled = false;
+            document.getElementById('email').disabled = false;
+            document.getElementById('research').disabled = false;
+            document.getElementById('CoC').disabled = false;
+            document.getElementById('submit').disabled = false;
+        }
+    </script>
+    
+    <p>
+        To proceed, first please read the <a href="https://www.dropbox.com/s/ctt4ykbzevb1vki/havid_code_of_conduct_2023.pdf?dl=0" target="_blank" onclick="read_ToC()"><font size="+2">Code of Conduct</font></a>.
+        <br />
+        <i>You cannot fill in the form until you have opened the Code of Conduct</i>
+    </p>
+    --> 
+    <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSd-7Xmuc6F3rHuIlJgZZi1aKB2oXqc6ztFosvepJXTAPc4zkQ/formResponse" method="post">
+        <br/>
+        <div class="div-multi-button">
+            <div>
+                <label>Name*:</label><br/>
+                <input type="text" id="name" width="100%" placeholder="Name" name="entry.1667351558" required>
+            </div>
+            <div>
+                <label>Email Address*:</label><br/>
+                <input type="email" id="email" width="100%" placeholder="Email address" name="entry.643728497" required>
+            </div>
+        </div>
+        <br/>
+        <div class="div-multi-button">
+            <div>
+                <label>Affiliation*:</label><br/>
+                <input type="text" id="affiliation" width="100%" placeholder="Affiliation" name="entry.802403012" required>
+            </div>
+            <div>
+                <label>Research field*:</label><br/>
+                <input type="text" id="research" width="100%" placeholder="Research field" name="">
+            </div>
+        </div>
+        
+        <div><br/>
+            <input type="checkbox" id="CoC" name="entry.1310284734" value="I agree to the terms and conditions" required>
+            <label><i>I agree to the </i><a href="https://www.dropbox.com/s/ctt4ykbzevb1vki/havid_code_of_conduct_2023.pdf?dl=0" target="_blank">Code of Conduct</a>.</label>
+        </div>
+        <br/><br/>
+        <div class="div-single-button">
+            <button type="submit" id="submit" class="button-download">Send</button>
+        </div>
+        
+
+    </form>
+
+</div>
+
+
+
+
