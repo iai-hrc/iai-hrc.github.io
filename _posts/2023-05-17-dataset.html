@@ -27,7 +27,7 @@ permalink: ha-vid
         Supplementary
     </a>    
     <a href="#request_access" class="button-download" style="width:24%">
-        Dataset
+        Dataset Access
     </a>     
     <a href="https://github.com/iai-hrc/ha-vid" target="_blank" class="button-download" style="width:24%">
         Github
@@ -38,76 +38,6 @@ permalink: ha-vid
 <video autoplay muted loop width="100%">
     <source src="/videos/havid_videos/video_30.mp4" type="video/mp4">
 </video>
-<!--
-<div class="div-multi-button">
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/1.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/2.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/3.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/4.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/5.mp4" type="video/mp4">
-    </video>
-</div><br />
-<div class="div-multi-button">
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/7.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/8.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/9.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/10.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/11.mp4" type="video/mp4">
-    </video>
-</div><br />
-<div class="div-multi-button">
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/13.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/14.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/15.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/16.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/17.mp4" type="video/mp4">
-    </video>
-</div><br />
-<div class="div-multi-button">
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/19.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/20.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/21.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/22.mp4" type="video/mp4">
-    </video>
-    <video muted autoplay loop width="19%">
-        <source src="/videos/havid_videos/23.mp4" type="video/mp4">
-    </video>
-</div><br />
--->
 <!--Overview-->
 <!--
 <div class="div-section-margins">
@@ -138,7 +68,7 @@ permalink: ha-vid
 <div class="div-section-margins">
     <h3 class="section-subheading">GAB</h3>
     <video muted loop autoplay width="100%">
-        <source src="/videos/gab_480p.mp4" type="video/mp4">
+        <source src="/videos/havid_videos/three_plates.mp4" type="video/mp4">
     </video>
     <p>
         To ensure representation of real-world industrial assembly scenarios, the GAB was designed. It is a 250x250x250mm box with 35 standard and non-standard parts commonly used in industrial assembly. Four standard tools are required for assembly. The GAB includes three plates with different task precedence and collaboration requirements, providing contextual links between actions and enabling situational action understanding.
@@ -176,7 +106,7 @@ permalink: ha-vid
         This design is inspired by <i>discovery learning</i> and allows for the observation of 
         varying efficiency, alternative routes, pauses, and errors throughout the learning process.
         <br /><br />
-        <video controls muted loop width="100%">
+        <video controls muted width="100%">
             <source src="/videos/3_stages.mp4" type="video/mp4">
         </video>
     </p>
@@ -196,10 +126,11 @@ permalink: ha-vid
         To enable human-robot assembly knowledge transfer, the structured temporal annotations 
         are made following HR-SAT. HR-SAT ensures annotation transferability, adaptability, and 
         consistency. The HR-SAT structure is briefly shown below. For more information, you can visit
-        the <a href="https://iai-hrc.github.io/hr-sat">HR-SAT website</a>.
+        the <a href="https://iai-hrc.github.io/hr-sat" target="_blank">HR-SAT website</a>.
     </p>
     <img src="/img/havid/taxonomy.png" width = 100% alt="HR-SAT"> 
     <p>
+    
         <br />
         The video below shows how videos were annotated with temporal annotations.
         <br />
@@ -207,6 +138,9 @@ permalink: ha-vid
     <video controls muted loop width="100%">
         <source src="/videos/annotations.mp4" type="video/mp4">
     </video>
+    <p>
+        Descriptions of how the action verbs were defined be found in the HR-SAT <a href="/hr-sat#action_verb_supplementary" target="_blank">supplementary document</a>
+    </p>
     <p>
         For spatial annotations, we use <a href="https://www.cvat.ai/">CVAT</a>, a video annotation tool, to label bounding boxes for subjects, objects and tools frame-by-frame. 
         
@@ -273,7 +207,7 @@ permalink: ha-vid
         
         <div><br/>
             <input type="checkbox" id="CoC" name="entry.1310284734" value="I agree to the terms and conditions" required>
-            <label><i>I agree to the </i><a href="https://www.dropbox.com/s/ctt4ykbzevb1vki/havid_code_of_conduct_2023.pdf?dl=0" target="_blank">Code of Conduct</a>.</label>
+            <label><i>I agree to the </i><u><a href="https://www.dropbox.com/s/ctt4ykbzevb1vki/havid_code_of_conduct_2023.pdf?dl=0" target="_blank">Code of Conduct</a></u>.</label>
         </div>
         <br/><br/>
         <div class="div-single-button">
