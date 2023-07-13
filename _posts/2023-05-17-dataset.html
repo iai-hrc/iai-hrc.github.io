@@ -20,10 +20,10 @@ permalink: ha-vid
 <br />
 <!--Download buttons-->
 <div class="div-multi-button">
-    <a href="https://openreview.net/forum?id=DILUIcDmU9" target="_blank" class="button-download" style="width:24%">
+    <a href="http://arxiv.org/abs/2307.05721" target="_blank" class="button-download" style="width:24%">
         Paper
     </a>
-    <a href="https://openreview.net/forum?id=DILUIcDmU9" target="_blank" class="button-download" style="width:24%">
+    <a href="http://arxiv.org/abs/2307.05721" target="_blank" class="button-download" style="width:24%">
         Supplementary
     </a>    
     <a href="#request_access" class="button-download" style="width:24%">
@@ -36,7 +36,7 @@ permalink: ha-vid
 <br />
 <!--videos-->
 <video autoplay muted loop width="100%">
-    <source src="/videos/havid_videos/video_30.mp4" type="video/mp4">
+    <source src="/videos/havid_videos/30_overview_video.mp4" type="video/mp4">
 </video>
 <!--Overview-->
 <!--
@@ -55,7 +55,11 @@ permalink: ha-vid
     <h2 class="section-heading">HA-ViD</h2>
     <p>
         HA-VID is a human assembly video dataset that records people assembling our designed Generic Assembly Box (GAB). It is benchmarked on four foundation video understanding tasks and analyzed for its ability to comprehend application-oriented knowledge.
-        <br /><br />
+        <br />
+        <video autoplay muted loop width="100%">
+            <source src="/videos/havid_videos/havid_intro_video.mp4" type="video/mp4">
+        </video>        
+        <br />
         HA-VID stands out with three key aspects:
         <ul>
             <li>Representative industrial assembly scenarios achieved via the designed GAB.</li>
@@ -107,7 +111,7 @@ permalink: ha-vid
         varying efficiency, alternative routes, pauses, and errors throughout the learning process.
         <br /><br />
         <video controls muted width="100%">
-            <source src="/videos/3_stages.mp4" type="video/mp4">
+            <source src="/videos/havid_videos/three_stages.mp4" type="video/mp4">
         </video>
     </p>
     <p>
@@ -138,7 +142,7 @@ permalink: ha-vid
         <br />
     </p>
     <video controls muted width="100%">
-        <source src="/videos/annotations.mp4" type="video/mp4">
+        <source src="/videos/havid_videos/annotations.mp4" type="video/mp4">
     </video>
     <p>
         For spatial annotations, we use <a href="https://www.cvat.ai/">CVAT</a>, a video annotation tool, to label bounding boxes for subjects, objects and tools frame-by-frame. 
@@ -169,11 +173,14 @@ permalink: ha-vid
     <h2>Citation</h2>        
     <pre>
         <code>
-@article{
-    title = {HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding},
-    author = {H. Zheng and R. Lee and Y. Lu},
-}            
-        </code>
+@misc{zheng2023havid,
+    title={HA-ViD: A Human Assembly Video Dataset for Comprehensive Assembly Knowledge Understanding}, 
+    author={Hao Zheng and Regina Lee and Yuqian Lu},
+    year={2023},
+    eprint={2307.05721},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}</code>
     </pre>
 </div>
 
