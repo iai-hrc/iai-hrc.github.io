@@ -1,59 +1,71 @@
 // Bootstrap overrides for this template
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
-.div-btn-centre {  
-    display: flex; 
-    justify-content: center; 
-} 
+.div-btn-centre {
+  display: flex;
+  justify-content: center;
+}
 
-.div-btn-width {  
-    width: clamp(300px,30%,30%);
-} 
+.div-btn-width {
+  width: clamp(300px, 30%, 30%);
+}
 
 .btn-download {
-    display: inline-block;
-    border-radius: 10px;
-    background-color: white;
-    border: none;
-    color: black;
-    text-align: center;
-    font-size: clamp(8px, 80%, 20px);
-    padding: 20px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: auto 10px;
-    box-shadow: gray 0px 3px 8px;
-    text-overflow: clip;
-    overflow:hidden;
-    white-space:nowrap;
-  }
-  
-  .btn-download span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .btn-download span:after {
-    color:#000;
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: normal;
-    font-weight:900;   
-    content: '\f019';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .btn-download:hover span {
-    padding-right: 25px;
-  }
-  
-  .btn-download:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: min(2vw, 20px);
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto 10px;
+  box-shadow: gray 0px 3px 8px;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn-download span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-download span:after {
+  color: #000;
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 900;
+  content: '\f019';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-download[btn-icon="download"] span:after {
+  content: '\f019';
+}
+
+.btn-download[btn-icon="link"] span:after {
+  content: '\f35d';
+}
+
+.btn-download[btn-icon="request"] span:after {
+  content: '\f084';
+}
+
+.btn-download:hover span {
+  padding-right: 25px;
+}
+
+.btn-download:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -19,6 +19,7 @@ permalink: hr-sat
 </div>
 <hr>
 <!-- Download buttons-->
+<span id="download_supplementary" style="position:absolute;margin-top:-50vh;"></span>
 <div class="div-btn-centre">
     <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
         <a href="" download style="text-decoration:none">
@@ -27,7 +28,7 @@ permalink: hr-sat
     </div>
     <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
         <a href="/download_files/Supplementary_Document.pdf" download style="text-decoration:none">
-            <button class="btn-download" style="width: 90%;"><span>SUPPLEMENTARY </span></button>
+            <button class="btn-download"  btn-icon="download" style="width: 90%;"><span>SUPPLEMENTARY </span></button>
         </a>
     </div>       
 </div>
@@ -61,7 +62,7 @@ permalink: hr-sat
     <p>
         For better utilisation of HR-SAT, we also define nine atomic actions common in assembly processes.
         <br />
-        <p style="text-align: center;font-size: 12pt;"><i>More details in the <a href="#">Supplementary</a></i></p>
+        <p style="text-align: center;font-size: 12pt;"><i>More details in the <a href="#download_supplementary">Supplementary</a></i></p>
         <img src="/img/hrsat/nine_atomic_actions.png" alt="nine atomic actions" class="img-show" style="width:70%">
     </p>
 </div>
@@ -74,6 +75,8 @@ permalink: hr-sat
         To flexibly describe the assembly task, we proposed the task description framework and modeled
         it as a knowledge graph.
     </p>
+    <img src="/img/hrsat/knowledge_graph.png" alt="knowledge graph" class="img-show" style="width:100%">
+    <br />    
     <p style="text-align: center;font-size: 12pt;"><i>Use the interactive window below to see the modeled knowledge graph</i></p>
     <div style="transform: translateY(-2rem);">
         <button class="buttonFS" onclick="var el = document.getElementById('element'); el.requestFullscreen();">
@@ -84,7 +87,7 @@ permalink: hr-sat
     <div class="div-btn-centre">
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/HR-SAT.xml" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>HR-SAT .xml file </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>HR-SAT .xml file </span></button>
             </a>
         </div>       
     </div>
@@ -128,17 +131,17 @@ permalink: hr-sat
     <div class="div-btn-centre">
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS1_AssistiveAssembly.xml" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS1: .xml file </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS1: .xml file </span></button>
             </a>
         </div> 
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS1_Instruction.pdf" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS1: Instructions </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS1: Instructions </span></button>
             </a>
         </div>   
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS1_Valve_BoM.pdf" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS1: BoM </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS1: BoM </span></button>
             </a>
         </div>     
     </div>
@@ -148,7 +151,7 @@ permalink: hr-sat
 <div class="div-section-margins">
     <h3>Case Study 2: Human-Robot Collaborative Assembly</h3>
     <div style="text-align: center;">
-        <video muted loop autoplay width="71%" height="71%">
+        <video muted loop autoplay width="71%" height="71%" style="transform: scale(101%);">
             <source src="/videos/hrsat_videos/box_video.mp4" type="video/mp4">
         </video>    
     </div>
@@ -169,17 +172,17 @@ permalink: hr-sat
     <div class="div-btn-centre">
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS2_Subject-agnostic_TaskGraph.xml" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS2: STG .xml file </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS2: STG .xml file </span></button>
             </a>
         </div> 
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS2_HRC_TaskGraph.xml" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS2: HTG .xml file </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS2: HTG .xml file </span></button>
             </a>
         </div>   
         <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
             <a href="/download_files/CS2_GAB_BoM.pdf" download style="text-decoration:none">
-                <button class="btn-download" style="width: 90%;"><span>CS2: BoM </span></button>
+                <button class="btn-download" btn-icon="download" style="width: 90%;"><span>CS2: BoM </span></button>
             </a>
         </div>     
     </div>

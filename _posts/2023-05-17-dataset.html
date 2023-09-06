@@ -3,7 +3,7 @@ layout: post
 title: "HA-ViD: A Human Assembly Video Dataset"
 subtitle: "for Comprehensive Assembly Knowledge Understanding"
 date: 2023-06-07 10:45:13 +1200
-background: '/videos/havid_videos/30_overview_video.mp4'
+background: '/videos/havid_videos/30_overview_video_dark.mp4'
 permalink: ha-vid
 ---
 <!--Author list-->
@@ -19,25 +19,29 @@ permalink: ha-vid
 <hr>
 <br />
 <!--Download buttons-->
-<div class="div-multi-button">
-    <a href="http://arxiv.org/abs/2307.05721" target="_blank" class="button-download" style="width:24%">
-        Paper
-    </a>
-    <a href="http://arxiv.org/abs/2307.05721" target="_blank" class="button-download" style="width:24%">
-        Supplementary
-    </a>    
-    <a href="#request_access" class="button-download" style="width:24%">
-        Dataset Access
-    </a>     
-    <a href="https://github.com/iai-hrc/ha-vid" target="_blank" class="button-download" style="width:24%">
-        Github
-    </a> 
+<div class="div-btn-centre">
+    <div class="div-btn-width" style="width:min(230px,25%)">
+        <a href="http://arxiv.org/abs/2307.05721" target="_blank" style="text-decoration:none">
+            <button class="btn-download" btn-icon="link" style="width: 90%;"><span>PAPER (ArXiv) </span></button>
+        </a>
+    </div>
+    <div class="div-btn-width" style="width:min(230px,25%)">
+        <a href="http://arxiv.org/abs/2307.05721" target="_blank" style="text-decoration:none">
+            <button class="btn-download" btn-icon="link" style="width: 90%;"><span>SUPPLEMENTARY </span></button>
+        </a>
+    </div>
+    <div class="div-btn-width" style="width:min(230px,25%)">
+        <a href="#request_access" style="text-decoration:none">
+            <button class="btn-download" btn-icon="request" style="width: 90%;"><span>DATASET ACCESS </span></button>
+        </a>
+    </div>
+    <div class="div-btn-width" style="width:min(230px,25%)">
+        <a href="https://github.com/iai-hrc/ha-vids" target="_blank" style="text-decoration:none">
+            <button class="btn-download" btn-icon="link" style="width: 90%;"><span>GITHUB </span></button>
+        </a>
+    </div>
 </div>
-<br />
-<!--videos-->
-<video autoplay muted loop width="100%">
-    <source src="/videos/havid_videos/30_overview_video.mp4" type="video/mp4">
-</video>
+
 <!--Overview-->
 <!--
 <div class="div-section-margins">
@@ -68,6 +72,7 @@ permalink: ha-vid
         </ul>
     </p>
 </div>
+<hr>
 <!--GAB-->
 <div class="div-section-margins">
     <h3 class="section-subheading">GAB</h3>
@@ -77,18 +82,27 @@ permalink: ha-vid
     <p>
         To ensure representation of real-world industrial assembly scenarios, the GAB was designed. It is a 250x250x250mm box with 35 standard and non-standard parts commonly used in industrial assembly. Four standard tools are required for assembly. The GAB includes three plates with different task precedence and collaboration requirements, providing contextual links between actions and enabling situational action understanding.
     </p>
-    <p>
-        The CAD files, Bill of Materials and instructions to replicate GAB be downloaded below. The Subject-agnostic task precedence graphs (SA-TPG) of the GAB plates can also be downloaded below as an .owl file.
+    <p style="text-align: center;font-size: 12pt;">
+        <i>
+        The CAD files, Bill of Materials and instructions to replicate GAB be downloaded below. 
+        <br />
+        The Subject-agnostic task precedence graphs (SA-TPG) of the GAB plates can also be downloaded below as an .owl file.
+        </i>
     </p>
-    <div class="div-multi-button">
-        <a href="https://www.dropbox.com/sh/cuvg2nv5etfm6v4/AAAddmZVa1W8vIjOVsll2AWqa?dl=0" target="_blank" class="button-download" style="width:45%">
-            Download <br />GAB files
-        </a>
-        <a href="https://www.dropbox.com/sh/kodchuzgxqupn91/AAArhzx59VCCtJFD6xlXb7vRa?dl=0" target="_blank" class="button-download" style="width:45%">
-            Download <br />SA-TPG
-        </a>       
+    <div class="div-btn-centre">
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="https://www.dropbox.com/sh/cuvg2nv5etfm6v4/AAAddmZVa1W8vIjOVsll2AWqa?dl=0" target="_blank" style="text-decoration:none">
+                <button class="btn-download" btn-icon="link" style="width: 90%;"><span>Download GAB files </span></button>
+            </a>
+        </div>
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="https://www.dropbox.com/sh/kodchuzgxqupn91/AAArhzx59VCCtJFD6xlXb7vRa?dl=0" target="_blank" style="text-decoration:none">
+                <button class="btn-download" btn-icon="link" style="width: 90%;"><span>Download SA-TPG </span></button>
+            </a>
+        </div>
     </div>
 </div>
+<hr>
 <!--Data Collection-->
 <div class="div-section-margins">
     <h3 class="section-heading">Data Collection</h3>
@@ -114,15 +128,20 @@ permalink: ha-vid
             <source src="/videos/havid_videos/three_stages.mp4" type="video/mp4">
         </video>
     </p>
-    <p>
+    <p style="text-align: center;font-size: 12pt;">
+        <i>
         The instructions provided during the discovery and instruction stages can be downloaded below.
+        </i>
     </p>
-    <div class="div-single-button">        
-        <a href="https://www.dropbox.com/sh/yli3jxhekpcw6fd/AABK7Njvm1WD0zJfB1r2Hdnza?dl=0" target="_blank" class="button-download">
-            Download instructions
-        </a>       
+    <div class="div-btn-centre">
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="https://www.dropbox.com/sh/yli3jxhekpcw6fd/AABK7Njvm1WD0zJfB1r2Hdnza?dl=0" target="_blank" style="text-decoration:none">
+                <button class="btn-download" btn-icon="link" style="width: 90%;"><span>Download instructions </span></button>
+            </a>
+        </div>    
     </div>
 </div>
+<hr>
 <!--Data Annotation-->
 <div class="div-section-margins">
     <h3 class="section-heading">Data Annotation</h3>
@@ -131,12 +150,13 @@ permalink: ha-vid
         are made following HR-SAT. HR-SAT ensures annotation transferability, adaptability, and 
         consistency. The HR-SAT structure is briefly shown below. 
     </p>
-    <p>
-        For more information, you can visit the <a href="https://iai-hrc.github.io/hr-sat" target="_blank">HR-SAT website</a>, where you can also find the <a href="/hr-sat#action_verb_supplementary" target="_blank">HR-SAT supplementary</a> containing definitions of the action verbs.
+    <p style="text-align: center;font-size: 12pt;">
+        <i>
+        For more information, you can visit the <a href="https://iai-hrc.github.io/hr-sat" target="_blank">HR-SAT website</a>, where you can also find the <a href="/hr-sat#download_supplementary" target="_blank">HR-SAT supplementary</a> containing definitions of the action verbs.
+        </i>
     </p>
     <img src="/img/havid/taxonomy.png" width = 100% alt="HR-SAT"> 
-    <p>
-    
+    <p>    
         <br />
         The video below shows how videos were annotated with temporal annotations.
         <br />
@@ -150,7 +170,7 @@ permalink: ha-vid
     </p>
     <img src="/img/havid/cvat.png" width = 100% alt="cvat"> 
 </div>
-
+<hr>
 <div class="div-section-margins">
     <h2>Acknowledgements</h2>        
     <p>
@@ -216,10 +236,13 @@ permalink: ha-vid
             <label><i>I agree to the </i><u><a href="https://www.dropbox.com/s/ctt4ykbzevb1vki/havid_code_of_conduct_2023.pdf?dl=0" target="_blank">Code of Conduct</a></u>.</label>
         </div>
         <br/><br/>
-        <div class="div-single-button">
-            <button type="submit" id="submit" class="button-download">Send request</button>
-        </div>
-        
+
+
+        <div class="div-btn-centre">
+            <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+                    <button class="btn-download" type="submit" id="submit" btn-icon="request" style="width: 90%;"><span>Send request </span></button>
+            </div>    
+        </div>      
 
     </form>
 
