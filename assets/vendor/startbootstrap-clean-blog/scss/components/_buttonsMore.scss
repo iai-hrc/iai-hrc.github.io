@@ -17,12 +17,15 @@
     border: none;
     color: black;
     text-align: center;
-    font-size: clamp(12px, 80%, 20px);
+    font-size: clamp(8px, 80%, 20px);
     padding: 20px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin: auto 10px;
     box-shadow: gray 0px 3px 8px;
+    text-overflow: clip;
+    overflow:hidden;
+    white-space:nowrap;
   }
   
   .btn-download span {

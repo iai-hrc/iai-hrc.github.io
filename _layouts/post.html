@@ -4,7 +4,14 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
+{% if page.background contains '.mp4' %}
+<header class="masthead video-bg">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" type="video/mp4">
+    </video>
+{% else %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% endif %}  
   {% else %}
   <header class="masthead">
     {% endif %}

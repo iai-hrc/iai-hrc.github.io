@@ -12,7 +12,7 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width:25rem;
+    width:min(25rem,100%);
     pointer-events: auto;
 }
 
