@@ -96,6 +96,7 @@ header.masthead {
 }
 
 header.masthead.video-bg {
+    background-color: rgba(0, 0, 0, 0);
     video {
       position: absolute;
       top: 50%;
@@ -105,7 +106,7 @@ header.masthead.video-bg {
       width: auto;
       height: auto;
       z-index: -100;
-      transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-52%);
     }
   }
   
