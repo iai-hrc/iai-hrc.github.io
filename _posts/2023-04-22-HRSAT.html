@@ -3,9 +3,11 @@ layout: post
 title: "HR-SAT: Human-Robot Shared Assembly Taxonomy"
 subtitle: "A step towards seamless human-robot knowledge transfer"
 date: 2023-04-22 10:45:13 +1200
-background: '/img/posts/human_robot_hands.jpg'
+background: '/img/posts/human_robot_hand.jpeg'
 permalink: hr-sat
 ---
+
+<!-- Author list-->
 <div>
     <p>
         <b>Authors: Regina Lee*, Hao Zheng*, Yuqian Lu</b>
@@ -15,112 +17,102 @@ permalink: hr-sat
         <i>* they contributed equally</i>
     </p>
 </div>
-
 <hr>
+<!-- Download buttons-->
+<div class="div-btn-centre">
+    <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+        <a href="" download style="text-decoration:none">
+            <button type="button" class="btn-download" style="width: 90%;color: lightgray;" disabled>PAPER (under review)</button>
+        </a>
+    </div>
+    <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+        <a href="/download_files/Supplementary_Document.pdf" download style="text-decoration:none">
+            <button class="btn-download" style="width: 90%;float: right"><span>SUPPLEMENTARY </span></button>
+        </a>
+    </div>       
+</div>
 
-<div class="div-section-margins">
-    <h2 class="section-heading">Human-Robot Knowledge Transfer</h2>
-    <p>
-        Future manufacturing will witness a shift in human-robot relationships towards collaboration, 
-        compassion and coevolution. This will require seamless human-robot knowledge transfer. 
-        Differences in language and knowledge representation hinder the transfer of knowledge 
-        among humans and robots. Thus, a unified knowledge representation system that can be shared 
-        by humans and robots is essential. Driven by this need in a product assembly scenario, we 
-        propose the Human-Robot Shared Assembly Taxonomy (HR-SAT). With HR-SAT, any comprehensive 
-        assembly task can be represented as a knowledge graph that both humans and robots can understand. 
+<!-- Overview/Motivation-->
+<div>
+    <h2 class="font-section-heading">Human-Robot Knowledge Transfer</h2>
+    <p style="text-align: justify;">
+        Future manufacturing will witness a shift in human-robot relationships towards collaboration, compassion and coevolution. This will require seamless human-robot knowledge transfer. Differences in language and knowledge representation hinder the transfer of knowledge among humans and robots. Thus, a unified knowledge representation system that can be shared by humans and robots is essential. 
         <br /><br />
-        HR-SAT enables utilisation in various applications as a hierarchical, consistent and 
-        information-rich representation
+        Driven by this need in a product assembly scenario, we propose the <span style="color:#FD2F82">Human-Robot Shared Assembly Taxonomy (HR-SAT)</span>. With HR-SAT, any comprehensive assembly task can be represented as a knowledge graph that both humans and robots can understand. HR-SAT enables utilisation in various applications as a hierarchical, consistent and information-rich representation.
     </p>
+    <!--
     <hr>
     <img src="/img/posts/application.gif" width = 100% alt="Demo Image"> 
+    -->
 </div>
 
-<div class="div-section-margins">
-    <h2 class="section-heading">HR-SAT</h2>
-    <p>
-        HR-SAT has a hierarchical structure which decomposes a task into primitive tasks 
-        and primitive tasks into atomic actions. Definitions of <em>task</em>, <em>primitive task</em> 
-        and <em>atomic action</em> are based on the <em>functional state change</em> of the manipulated object and 
-        the <em>interaction state change</em> between the subject and manipulated object.
-        <br /><br />
-        For better utilisation of HR-SAT, we also define nine atomic actions common in assembly processes.
-        <br /><br />
-        <i>Watch the video below for more information</i>
+<!-- HR-SAT structure and definition -->
+<div>
+    <h2 class="font-section-heading">HR-SAT</h2>
+    <p style="text-align: justify;">
+        HR-SAT has a hierarchical structure which decomposes a task into primitive tasks and primitive tasks into atomic actions. Definitions of <em>task</em>, <em>primitive task</em> and <em>atomic action</em> are based on the <em>functional state change</em> of the manipulated object and the <em>interaction state change</em> between the subject and manipulated object.
     </p>
-    <video controls muted loop width="100%">
-        <source src="/videos/hrsat_videos/structure_video.mp4" type="video/mp4">
-    </video>
-
-    <p id="action_verb_supplementary">
-        The details of the nine atomics actions shown in the video and their action parameters can be found 
-        in the supplementary document below: 
-    </p>
-    <div class="div-single-button">    
-        <a href="/download_files/Supplementary_Document.pdf" Download class="button-download">
-            Supplementary Document  
-        </a>       
+    <p style="text-align: center;font-size: 12pt;"><i>Hover over image for more information</i></p>
+    <div class="div-expand">
+        <img src="/img/hrsat/new_unified_process.png" alt="hr-sat structure" class="img-show">
+        <div class="hover-area"></div>
+        <img src="/img/hrsat/new_structure_definitions.png" alt="hr-sat structure definitions" class="img-hidden">
     </div>
+    <p>
+        For better utilisation of HR-SAT, we also define nine atomic actions common in assembly processes.
+        <br />
+        <p style="text-align: center;font-size: 12pt;"><i>More details in the <a href="#">Supplementary</a></i></p>
+        <img src="/img/hrsat/nine_atomic_actions.png" alt="nine atomic actions" class="img-show" style="width:70%">
+    </p>
 </div>
+<hr>
 
-
+<!-- Knowledge graph -->
 <div class="div-section-margins">
     <h2 class="section-heading">Task description framework modeling</h2>
-    <p>
+    <p style="text-align: justify;">
         To flexibly describe the assembly task, we proposed the task description framework and modeled
         it as a knowledge graph.
-        <br /><br />
-        <i>Use the interactive window below to see the modeled knowledge graph</i>
     </p>
-
-    <div>
+    <p style="text-align: center;font-size: 12pt;"><i>Use the interactive window below to see the modeled knowledge graph</i></p>
+    <div style="transform: translateY(-2rem);">
         <button class="buttonFS" onclick="var el = document.getElementById('element'); el.requestFullscreen();">
         Open in full screen</button>
         <iframe class="element" id="element" src="/webvowl/index.html"></iframe>
     </div>
-    <p>
-        The RDF/XML file of the task description framework modeled as a knowledge graph can be 
-        downloaded below.
-    </p>
-    <div class="div-single-button">        
-        <a href="/download_files/HR-SAT.xml" download class="button-download">
-            HR-SAT .xml file
-        </a>       
+    <p style="text-align: center;font-size: 12pt;"><i>The RDF/XML file of the modeled knowledge graph can be downloaded below.</i></p>
+    <div class="div-btn-centre">
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/HR-SAT.xml" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>HR-SAT .xml file </span></button>
+            </a>
+        </div>       
     </div>
 </div>
-
 <hr>
 
+<!-- Case studies-->
 <div class="div-section-margins">
     <h2 class="section-heading">Case Studies</h2>
-    <p>
+
+    <p style="text-align: justify;">
         We present two application case studies to demonstrate the utilisation and significance of HR-SAT 
         in diverse applications. 
     </p>
 </div>
-
+<!-- CS 1-->
 <div class="div-section-margins">
     <h3 class="section-subheading">CS 1: Assistive Assembly and Quality Assurance</h3>
-    <video controls muted loop autoplay width="100%">
-        <source src="/videos/hrsat_videos/valve_video.mp4" type="video/mp4">
-    </video>
-    <p>
-        This study presents an assistive assembly and quality assurance framework for a hydraulic valve assembly.
-        In this framework, HR-SAT can convert the disparate process information in the assembly instructions into 
-        a unified process representation in the form of a knowledge graph. From the knowledge graph, the primitive 
-        task and key atomic action nodes are extracted to obtain a unified instruction.
+    <div style="text-align: center;">
+        <video controls muted loop autoplay width="60%">
+            <source src="/videos/hrsat_videos/valve_video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <p style="text-align: justify;">
+        This study presents an assistive assembly and quality assurance framework for a hydraulic valve assembly. In this framework, HR-SAT can convert the disparate process information in the assembly instructions into a unified process representation in the form of a knowledge graph. From the knowledge graph, the primitive task and key atomic action nodes are extracted to obtain a unified instruction.
         <br /><br />
-        The generated unified instruction can then be used in to obtain personalised instructions, which is used to 
-        assist the worker as well as to cross-check with the assembly process monitoring for quality assurance. 
+        The generated unified instruction can then be used in to obtain personalised instructions, which is used to assist the worker as well as to cross-check with the assembly process monitoring for quality assurance. 
         <br /><br />
-        <i>
-            Watch the video below for more information
-        </i>
-    </p>
-    <video controls muted loop width="100%">
-        <source src="/videos/hrsat_videos/casestudy1.mp4" type="video/mp4">
-    </video>
-    <p>
         <i>
             The valve assembly in Case Study 1 is based on the 
             <a href="https://www.oasisngv.com/product_details/p/159/c/60/Check%20Valves/Check%20Valves%20-%20300%20Series">
@@ -128,69 +120,71 @@ permalink: hr-sat
             </a> from Oasis Engineering Ltd.
         </i>
     </p>
-    <p>
+    <p style="text-align: center;font-size: 12pt;">
         The knowledge graph for the unified process information can be downloaded below as an .xml file.
         <br />
         The instructions used by the HR-SAT and the BoM of the valve can also be downloaded below.
     </p>
-    <div class="div-multi-button">
-        <a href="/download_files/CS1_AssistiveAssembly.xml" download class="button-download" style="width:30%">
-            CS1: .xml file
-        </a>
-        <a href="/download_files/CS1_Instruction.pdf" download class="button-download" style="width:30%">
-            CS1: Instructions
-        </a> 
-        <a href="/download_files/CS1_Valve_BoM.pdf" download class="button-download" style="width:30%">
-            CS1: BoM
-        </a>        
+    <div class="div-btn-centre">
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS1_AssistiveAssembly.xml" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS1: .xml file </span></button>
+            </a>
+        </div> 
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS1_Instruction.pdf" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS1: Instructions </span></button>
+            </a>
+        </div>   
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS1_Valve_BoM.pdf" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS1: BoM </span></button>
+            </a>
+        </div>     
     </div>
 </div>
-
 <hr>
-
+<!-- CS 2-->
 <div class="div-section-margins">
     <h3>Case Study 2: Human-Robot Collaborative Assembly</h3>
-    <video controls muted loop autoplay width="100%">
-        <source src="/videos/hrsat_videos/box_video.mp4" type="video/mp4">
-    </video>
-    <p>
-        This case study presents the human-robot collaborative assembly framework for the Generic Assembly Box (GAB).
-        In this framework, HR-SAT converts the disparate assembly process information (such as video demonstrations) into 
-        a unified Subject-agnostic Task Graph, which provides a universal process description for any agent. From the 
-        Subject-agnostic Task Graph, the primitive tasks and even atomic actions are allocated to agents to obtain the 
-        HRC Task Graph. The allocation is based on the agent's capability and availability, guided by optimization 
-        objectives such as overall efficiency and human wellbeing.
+    <div style="text-align: center;">
+        <video controls muted loop autoplay width="70%">
+            <source src="/videos/hrsat_videos/box_video.mp4" type="video/mp4">
+        </video>    
+    </div>
+
+    <p style="text-align: justify;">
+        This case study presents the human-robot collaborative assembly framework for the Generic Assembly Box (GAB). In this framework, HR-SAT converts the disparate assembly process information (such as video demonstrations) into a unified Subject-agnostic Task Graph, which provides a universal process description for any agent. From the Subject-agnostic Task Graph, the primitive tasks and even atomic actions are allocated to agents to obtain the HRC Task Graph. The allocation is based on the agent's capability and availability, guided by optimization objectives such as overall efficiency and human wellbeing.
         <br /><br />
-        From the obtained HRC Task Graph, personalized instructions can be generated for human workers and executable 
-        policies can be generated through motion planning for robots. During the collaborative task, the robot's policy 
-        is updated dynamically by monitoring and predicting the human to ensure worker safety and collaborative efficiency.
-        <br /><br />
-        <i>
-            Watch the video below for more information
-        </i> 
+        From the obtained HRC Task Graph, personalized instructions can be generated for human workers and executable policies can be generated through motion planning for robots. During the collaborative task, the robot's policy is updated dynamically by monitoring and predicting the human to ensure worker safety and collaborative efficiency.
     </p>
-    <video controls muted loop width="100%">
-        <source src="/videos/hrsat_videos/casestudy2.mp4" type="video/mp4">
-    </video>
-    <p>
+    <p style="text-align: center;font-size: 12pt;">
         Two task graphs are created in Case Study 2: the Subject-agnostic Task Graph (STG) and the HRC Task Graph (HTG). 
+        <br />
         The knowledge graph for the task graphs can be downloaded below as an .xml file.
         <br />
         The BoM of the Generic Assembly Box (GAB) can also be downloaded below.
     </p>
-    <div class="div-multi-button">
-        <a href="/download_files/CS2_Subject-agnostic_TaskGraph.xml" download class="button-download" style="width:30%">
-            CS2: STG .xml file
-        </a>
-        <a href="/download_files/CS2_HRC_TaskGraph.xml" download class="button-download" style="width:30%">
-            CS2: HTG .xml file
-        </a> 
-        <a href="/download_files/CS2_GAB_BoM.pdf" download class="button-download" style="width:30%">
-            CS2: BoM
-        </a>        
+
+    <div class="div-btn-centre">
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS2_Subject-agnostic_TaskGraph.xml" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS2: STG .xml file </span></button>
+            </a>
+        </div> 
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS2_HRC_TaskGraph.xml" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS2: HTG .xml file </span></button>
+            </a>
+        </div>   
+        <div class="div-btn-width" style="width:clamp(300px,30%,30%)">
+            <a href="/download_files/CS2_GAB_BoM.pdf" download style="text-decoration:none">
+                <button class="btn-download" style="width: 90%;float: right"><span>CS2: BoM </span></button>
+            </a>
+        </div>     
     </div>
     <br />
-    <p>
+    <p style="text-align: justify;">
         The process of a worker assembling the Generic Assembly Box (GAB) with instructions can be seen in 
         the video below
     </p>
@@ -200,27 +194,23 @@ permalink: hr-sat
     <span class="caption text-muted">Video of worker performing assembly with instructions</span>
 </div>
 
-<hr>
+
 
 <hr>
 <div class="div-section-margins">
     <h3>Acknowledgements</h3>
-    <p>
+    <p style="text-align: justify;">
         <i>
             We would like to thank <a href="https://www.oasisngv.com">Oasis Engineering Ltd</a> for giving us permission to use their
             304 Check Valve in Case Study 2.
         </i>
-    </p>
-
-    
-    
-    <p>
+    </p>    
+    <p style="text-align: justify;">
         <i>
             We would like to thank Vincent Link, Steffen Lohmann, Eduard Marbach, Stefan Negru, Vitalis Wiens for 
             <a href="http://vowl.visualdataweb.org/webvowl.html">WebVOWL</a>, which is used to visualise the modeled knowledge graph of the task description framework.
-        </i>
-        
-    <p>
+        </i>        
+    <p style="text-align: justify;">
         <i>
             This project was funded by The University of Auckland FRDF New Staff Research Fund (No. 3720540)
         </i>

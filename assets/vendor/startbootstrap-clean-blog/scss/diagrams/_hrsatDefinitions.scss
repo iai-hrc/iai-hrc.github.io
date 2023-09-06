@@ -1,0 +1,35 @@
+// Bootstrap overrides for this template
+
+.div-expand {
+    width:100%;
+    height:12rem;
+    transition: height 0.5s;
+    pointer-events: none;
+    /*border: 2px solid blue;*/
+}
+
+.img-show {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25rem;
+    pointer-events: auto;
+}
+
+.img-hidden {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(40rem,100%);
+    opacity:0;   
+    transition: 0.5s; 
+}
+
+.div-expand:hover, .div-expand:active {
+    height:min(32rem,86vw);
+}
+
+.div-expand:hover .img-hidden, .div-expand:active .img-hidden{
+    opacity:1;
+}
+
